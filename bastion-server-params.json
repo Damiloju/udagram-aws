@@ -1,0 +1,18 @@
+[
+  {
+    "ParameterKey": "EnvironmentName",
+    "ParameterValue": "udagram"
+  },
+  {
+    "ParameterKey": "NetworkAccessIP",
+    "ParameterValue": "0.0.0.0/0"
+  },
+  {
+    "ParameterKey": "BastionHostSSHS3Bucket",
+    "ParameterValue": "udacity-gurootraining-keys"
+  },
+  {
+    "ParameterKey": "BastionHostSSHKeyName",
+    "ParameterValue": "bastion-kp"
+  }
+]
