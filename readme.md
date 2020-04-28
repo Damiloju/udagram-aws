@@ -14,14 +14,14 @@ Run ourinfra.yml
 ### To create our bastion servers via cloud formation
 
 Run bastion-server.yml
-`helpers/create.sh udagram bastion-servers.yml bastion-servers-params.json`
+`helpers/create.sh udagram-bastion-servers bastion-servers.yml bastion-servers-params.json`
 
 ## Step 3
 
 ### To create our application servers via cloud formation
 
 Run application-servers.yml
-`helpers/create.sh udagram application-servers.yml application-servers-params.json`
+`helpers/create.sh udagram-application-servers application-servers.yml application-servers-params.json`
 
 ## Updating a Stack
 

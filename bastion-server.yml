@@ -67,8 +67,8 @@ Resources:
       - IamInstanceProfile
     Properties:
       IamInstanceProfile: !Ref IamInstanceProfile
-      ImageId: ami-07b4f3c02c7f83d59
-      InstanceType: t3.small
+      ImageId: ami-003634241a8fcdec0
+      InstanceType: t2.micro
       KeyName: !Sub ${BastionHostSSHKeyName}
       SecurityGroupIds:
         - Ref: BastionSecurityGroup
@@ -106,8 +106,8 @@ Resources:
       - IamInstanceProfile
     Properties:
       IamInstanceProfile: !Ref IamInstanceProfile
-      ImageId: ami-07b4f3c02c7f83d59
-      InstanceType: t3.small
+      ImageId: ami-003634241a8fcdec0
+      InstanceType: t2.micro
       KeyName: !Sub ${BastionHostSSHKeyName}
       SecurityGroupIds:
         - Ref: BastionSecurityGroup

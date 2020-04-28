@@ -9,7 +9,7 @@
   },
   {
     "ParameterKey": "BastionHostSSHS3Bucket",
-    "ParameterValue": "udacity-gurootraining-keys"
+    "ParameterValue": "udagram-bastion-keys"
   },
   {
     "ParameterKey": "BastionHostSSHKeyName",
