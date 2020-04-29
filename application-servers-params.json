@@ -1,7 +1,7 @@
 [
   {
     "ParameterKey": "EnvironmentName",
-    "ParameterValue": "udagram"
+    "ParameterValue": ""
   },
   {
     "ParameterKey": "DNSProtocol",
@@ -9,6 +9,6 @@
   },
   {
     "ParameterKey": "ApplicationS3Bucket",
-    "ParameterValue": "damiloju-udagram-project"
+    "ParameterValue": ""
   }
 ]

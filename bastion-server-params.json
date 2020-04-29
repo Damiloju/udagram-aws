@@ -1,7 +1,7 @@
 [
   {
     "ParameterKey": "EnvironmentName",
-    "ParameterValue": "udagram"
+    "ParameterValue": ""
   },
   {
     "ParameterKey": "NetworkAccessIP",
@@ -9,10 +9,10 @@
   },
   {
     "ParameterKey": "BastionHostSSHS3Bucket",
-    "ParameterValue": "udagram-bastion-keys"
+    "ParameterValue": ""
   },
   {
     "ParameterKey": "BastionHostSSHKeyName",
-    "ParameterValue": "udagram"
+    "ParameterValue": ""
   }
 ]
