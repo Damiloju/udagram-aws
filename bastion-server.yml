@@ -160,3 +160,8 @@ Outputs:
     Value: !Sub ${BastionHostSSHKeyName}
     Export:
       Name: !Sub ${EnvironmentName}-BASTION-HOST-SSH-KEY-NAME
+  BastionSecurityGroupName:
+    Description: A reference to the Bastion Security Name
+    Value: !Sub ${BastionSecurityGroup}
+    Export:
+      Name: !Sub ${EnvironmentName}-BASTION-SECURITY-GROUP-NAME

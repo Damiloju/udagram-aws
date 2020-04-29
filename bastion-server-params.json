@@ -13,6 +13,6 @@
   },
   {
     "ParameterKey": "BastionHostSSHKeyName",
-    "ParameterValue": "bastion-kp"
+    "ParameterValue": "udagram"
   }
 ]
